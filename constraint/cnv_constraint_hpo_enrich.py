@@ -36,7 +36,7 @@ def assess_pathway(gene_map, hpo_list=[], out_file='hpo_pathway_comp.txt'):
 
 	
 if __name__ == '__main__':
-	for kind in ['dup','del']:
+	for kind in ['constraint','dup','del'][:1]:
 		in_f ='cnv_'+kind+'_zscores_20190430.tsv'
 		out_f='cnv_'+kind+'_hpo-enrichment_20190430.tsv'
 		with open(in_f, 'r') as f:	
