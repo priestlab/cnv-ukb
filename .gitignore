@@ -1,0 +1,8 @@
+# Constraint tables
+constraint/*.tsv
+
+# intermediate data files
+figures/*.tsv
+
+# and intermediate supplement tables
+figures/supplement/*.tsv
