@@ -52,8 +52,8 @@ def assess_pathway(gene_map, go_list=[], out_file='pathway_comp.txt'):
 
 	
 if __name__ == '__main__':
-	in_f ='cnv_constraint_zscores_20190430.tsv'
-	out_f='cnv_burden_go-enrichment_20190430.tsv'
+	in_f ='cnv_dup_zscores_20190430.tsv'
+	out_f='cnv_dup_go-enrichment_20190430.tsv'
 	with open(in_f, 'r') as f:	
 		gene_to_score = {line.split()[0]:float(line.split()[1]) for line in f}
 	assess_pathway( gene_map=gene_to_score, go_list=[], out_file=out_f )
