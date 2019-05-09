@@ -1,0 +1,16 @@
+ID	Pathway Name	Delta z	P
+GO:0000137	Golgi cis cisterna	0.332713605343	3.59431342529e-44
+GO:0045095	keratin filament	0.189600158736	3.19484321366e-33
+GO:0005515	protein binding	0.0493809365019	4.31772436402e-31
+GO:0031424	keratinization	0.134208655164	1.48696723796e-22
+GO:0008202	steroid metabolic process	0.215490058763	1.98858230677e-21
+GO:0005801	cis-Golgi network	0.167149784974	2.45791716825e-18
+GO:0046703	natural killer cell lectin-like receptor binding	0.362448066361	4.46578691233e-18
+GO:0008194	UDP-glycosyltransferase activity	0.235075956343	4.16260013206e-17
+GO:0005132	type I interferon receptor binding	0.244429003262	1.78644620094e-15
+GO:0052697	xenobiotic glucuronidation	0.289814739307	8.3444574493e-15
+GO:0005131	growth hormone receptor binding	0.37548788602	1.18842703536e-14
+GO:0042271	susceptibility to natural killer cell mediated cytotoxicity	0.237331838077	2.17007589049e-14
+GO:0042954	lipoprotein transporter activity	0.282904865709	5.68693620862e-14
+GO:0002323	natural killer cell activation involved in immune response	0.245928727854	1.29830833427e-13
+GO:0008395	steroid hydroxylase activity	0.152404738805	2.98091007069e-13
