@@ -4,7 +4,7 @@ import random
 random.seed(a=94019)
 
 fam_file = '/oak/stanford/projects/ukbb/genotypes/sample_app1372/ukb1372_cal_chr1_v2_s488374.fam'
-het_runs_reference = '/scratch/users/aldocp/share/ukb_ALL_Hom_lLD_65.hom.indiv'
+het_runs_reference = 'roh/ukb_ALL_Hom_lLD_65.hom.indiv'
 
 cutoff = 20000 # roh length, in kB
 n_train = 100

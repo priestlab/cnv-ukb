@@ -37,7 +37,7 @@ cd $out_dir
 # make individual files
 python make_one_batch.py $batch $chrom $ind_storage
 
-# test/train split -- leverage pre-existing split
+# test/train split -- leverage pre-existing split to enumerate files in each grouping
 # all
 find $ind_storage -type f | grep "_chr${chrom}_" | sort > ${run_id}_fullsignalfilelist.txt 
 # train
