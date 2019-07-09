@@ -46,15 +46,10 @@ def assess_pathway(gene_map, go_list=[], out_file='pathway_comp.txt'):
 			                   str(len(go_to_gene[go]))])+'\n')
 	return
 
-#def assess_inds(gene_map, ind_list=[], out_file):
-	# group is assessed on gene constraint scores of all genes their CNVs overlap
 
-
-	
 if __name__ == '__main__':
-	in_f ='cnv_dup_zscores_20190430.tsv'
-	out_f='cnv_dup_go-enrichment_20190430.tsv'
-	with open(in_f, 'r') as f:	
+	in_f ='output/cnv_dup_zscores_20190430.tsv'
+	out_f='output/cnv_dup_go-enrichment_20190430.tsv'
+	with open(in_f, 'r') as f:
 		gene_to_score = {line.split()[0]:float(line.split()[1]) for line in f}
 	assess_pathway( gene_map=gene_to_score, go_list=[], out_file=out_f )
-	

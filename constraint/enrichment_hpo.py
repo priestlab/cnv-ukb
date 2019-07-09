@@ -34,12 +34,11 @@ def assess_pathway(gene_map, hpo_list=[], out_file='hpo_pathway_comp.txt'):
 			                   str(len(hpo_to_gene[hpo]))])+'\n')
 	return
 
-	
+
 if __name__ == '__main__':
 	for kind in ['constraint','dup','del'][:1]:
-		in_f ='cnv_'+kind+'_zscores_20190430.tsv'
-		out_f='cnv_'+kind+'_hpo-enrichment_20190430.tsv'
+		in_f ='output/cnv_'+kind+'_zscores_20190430.tsv'
+		out_f='output/cnv_'+kind+'_hpo-enrichment_20190430.tsv'
 		with open(in_f, 'r') as f:	
 			gene_to_score = {line.split()[0]:float(line.split()[1]) for line in f}
 		assess_pathway( gene_map=gene_to_score, hpo_list=[], out_file=out_f )
-	
