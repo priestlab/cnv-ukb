@@ -9,3 +9,5 @@ Briefly, gene-level tolerance to CNV is estimated empirically using a linear mod
 2. Given constraint z-scores, perform gene-set enrichment: `enrichment_go.py` and `enrichment_hpo.py`
 
 3. Visualize enrichment results: `enrich.ipynb`
+
+Full tables of constraint scores and enrichment results are in the `output` directory.
