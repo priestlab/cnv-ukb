@@ -28,4 +28,4 @@ plink2 --bed "${dataRoot}/resources/all.cnv.ac-gt23.af1-20000.bed" \
        --covar "${dataRoot}/gwas/resources/ukb${appID}_CNV-GWAS.covar" \
        --covar-name age sex PC1-PC4 \
        --keep "${dataRoot}/gwas/resources/ukb${appID}_CNV-GWAS.wb-unrel.keep.txt" \
-       --out "${dataRoot}/gwas/output/${pheID}.cnv.ac-gt23" \
+       --out "${dataRoot}/gwas/output/${pheID}.cnv.ac-gt23" 
