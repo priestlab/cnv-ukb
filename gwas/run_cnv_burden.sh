@@ -28,4 +28,4 @@ plink2 --bed "${dataRoot}/resources/burden.bed" \
        --covar "${dataRoot}/gwas/resources/ukb${appID}_cnv_burden.covar" \
        --covar-name age sex PC1-PC4 N_CNV LEN_CNV \
        --keep "${dataRoot}/gwas/resources/ukb${appID}_CNV-GWAS.wb-unrel.keep.txt" \
-       --out "${dataRoot}/burden/output/${pheID}.genic.cnv.burden" \
+       --out "${dataRoot}/burden/output/${pheID}.genic.cnv.burden" 
