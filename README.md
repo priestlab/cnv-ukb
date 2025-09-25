@@ -1,6 +1,6 @@
 # UK Biobank CNV Analysis
 
-This is the repository for ["Phenome-wide Burden of Copy Number Variation in UK Biobank"]([https://www.biorxiv.org/content/10.1101/545996v1](https://pmc.ncbi.nlm.nih.gov/articles/PMC6699064/)) (Aguirre M, Rivas MA, Priest JR, AJHG 2019). Contents are as below, in respective folders:
+This is the repository for ["Phenome-wide Burden of Copy Number Variation in UK Biobank"](https://pmc.ncbi.nlm.nih.gov/articles/PMC6699064/) (Aguirre M, Rivas MA, Priest JR, AJHG 2019). Contents are as below, in respective folders:
 
 1. `constraint`: Contains a Jupyter notebook which implements a null model of genic CNV used to estimate selective constraint, as well as scripts used to compute gene set enrichment analysis using the resulting constraint scores.
 
