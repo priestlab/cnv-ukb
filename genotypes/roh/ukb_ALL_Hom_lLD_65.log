@@ -1,0 +1,37 @@
+PLINK v1.90b4.4 64-bit (21 May 2017)
+Options in effect:
+  --bfile ukb_ALL_AB_lLD
+  --homozyg
+  --homozyg-match 0.95
+  --homozyg-snp 65
+  --homozyg-window-het 0
+  --homozyg-window-missing 3
+  --homozyg-window-snp 65
+  --homozyg-window-threshold 0.05
+  --memory 200000
+  --out ukb_ALL_Hom_lLD_65
+
+Hostname: sh-105-63.int
+Working directory: /scratch/users/aldocp/matches
+Start time: Tue Feb 12 14:31:19 2019
+
+Random number seed: 1550010679
+257669 MB RAM detected; reserving 200000 MB for main workspace.
+153701 variants loaded from .bim file.
+485173 people (222023 males, 263147 females, 3 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ukb_ALL_Hom_lLD_65.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 485173 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.99769.
+153701 variants and 485173 people pass filters and QC.
+Note: No phenotypes present.
+--homozyg: Scan complete, found 709127 ROH.
+Results saved to ukb_ALL_Hom_lLD_65.hom + ukb_ALL_Hom_lLD_65.hom.indiv +
+ukb_ALL_Hom_lLD_65.hom.summary .
+89815 pools of overlapping ROH present.
+ROH pool report written to ukb_ALL_Hom_lLD_65.hom.overlap .
+
+End time: Tue Feb 12 14:41:21 2019
